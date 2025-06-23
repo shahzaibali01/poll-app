@@ -15,7 +15,7 @@ function PrivateRoute({ children }: { children: React.ReactNode }) {
   if (loading) return <p>Loading...</p>;
   return user ? children : <Navigate to="/login" />;
 }
-console.log("asdf");
+
 
 export default function App() {
   return (
